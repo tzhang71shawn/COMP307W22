@@ -1,0 +1,30 @@
+
+<!--This is for footer part/half-->
+
+<footer class="footer">
+    <div class="row" style="background-color:skyblue;">
+       <div class="col-1" id="sidecol">
+        </div>
+      
+   
+       <div class="col-10 col-m-12" >
+           <h2></h2>
+           <font  size="2">
+            <div align="right">
+                Tian Zhang's Blog<br>
+                Copyright @ 2021.<br>
+                All Rights Reserved.<br>
+
+            </div>
+
+        </font>     
+    </div>
+     <div class="row">
+       <div class="col-1" id="sidecol">
+
+</div>
+
+
+</footer>
+
+</html>

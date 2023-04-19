@@ -1,0 +1,106 @@
+
+      <!--Hobbit intro-->
+<body onload="showContent('FourTruth', 'FourNobleTurth')" >
+</body>
+
+   <div class="row" >
+        <div class="col-1" id="sidecol">
+   </div>
+
+  <div class="col-7 col-s-12">
+    <p>
+        Shawn is interested in philosophies off Buddihsim. Shawn got convinced by the philosophy from Siddhartha Gautama, the Buddha, in the end. The major theories of Buddihism is Four Noble Truth and Eight Right Path.
+    </p>
+  </div>
+
+
+   <div class="col-1" id="sidecol" style="background-color:White;">
+</div>
+</div>
+
+<!--Eight Paths-->
+     <div class="row" id="EightfoldPath">
+        <div class="col-1" id="sidecol">
+   </div>
+
+  <div class="col-7 col-s-12">
+    <h1 style="color: balck; ">Noble Eightfold Path</h1>
+    The Noble Eightfold Path is an early summary of the path of Buddhist practices leading to liberation from samsara, the painful cycle of rebirth, in the form of nirvana.
+
+The Eightfold Path consists of eight practices: right view, right resolve, right speech, right conduct, right livelihood, right effort, right mindfulness, and right samadhi ('meditative absorption or union').
+<a href="https://en.wikipedia.org/wiki/Four_Noble_Truths">Learn more.</a>
+  </div>
+
+<!--This is for Links-->
+
+<div class="col-3 col-s-12" id="content3" style="background-color:Gainsboro;">
+    <div style="margin: 1vw">
+        <h4> Four Noble Truth</h4>
+        <a id="FourTruth" onclick="showContent('FourTruth', 'FourNobleTurth')" class="active"><font color="Black" size="3px"> <u>Click here to Read</u></font></a><br>
+    </div>
+
+    <div style="margin: 12px">
+        <h4>The Eightfold Path </h4>
+        <a id="EightPath" onclick="showContent('EightPath', 'EightfoldPath')" class="active"><font color="Black" size="3px"> <u>Click here to Read</u> </font></a>
+    </div>
+
+</div>
+
+   <div class="col-1" id="sidecol" style="background-color:White;">
+</div>
+</div>
+     
+
+
+
+      <!--four truths-->
+      <div class="row" id="FourNobleTurth">
+        <div class="col-1" id="sidecol">
+   </div>
+      
+  
+        <div class="col-7 col-s-12"  style="background-color:white;">
+        
+            <h1 style="color: balck; ">Four Truths</h1>
+          
+
+
+            <p>
+The essence of buddha's teaching is the four noble truth.<br>
+<ol>
+  <li>the truth of suffering</li>
+  <li>the truth of the cause of suffering</li>
+  <li>the truth of the end of suffering</li>
+ <li> the truth of the path that leads to the end of suffering</li>
+</ol>
+In a word, it means suffering exists; it has a cause; it has an end; and it has a cause to bring about its end. In this context, suffering refers to any things that goes against you wills. Since human beings have unlimited desire while living in a limited-matters world, there is always suffering. The theories are built upon karma and cycle of rebirth. <a href="https://en.wikipedia.org/wiki/Four_Noble_Truths">Learn more.</a>
+
+        </p>
+    
+     </div>
+
+
+<!--This is for Links-->
+
+<div class="col-3" id="content3" style="background-color:Gainsboro;">
+    <div style="margin: 1vw">
+        <h4> Four Noble Truth</h4>
+        <a id="FourTruth" onclick="showContent('FourTruth', 'FourNobleTurth')" class="active"><font color="Black" size="3px"> <u>Click here to Read</u></font></a><br>
+    </div>
+
+    <div style="margin: 12px">
+        <h4>The Eightfold Path </h4>
+        <a id="EightPath" onclick="showContent('EightPath', 'EightfoldPath')" class="active"><font color="Black" size="3px"> <u>Click here to Read</u> </font></a>
+    </div>
+
+</div>
+
+<div class="col-1" id="sidecol" style="background-color:White;">
+</div>
+</div>
+
+<script>
+    function hideContent(){
+    document.getElementById("Links").style.display="none";
+}
+</script>

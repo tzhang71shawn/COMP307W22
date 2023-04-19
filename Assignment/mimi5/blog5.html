@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+        p{
+            font-size: 18px;
+            color: black;
+        }
+        h1{
+            font-size: 27px;
+            color: black;
+        }
+        h2{
+            color: black;
+        }
+        h3{
+            color: black;
+        }
+        h4{
+            font-size: 16px;
+            color: black; 
+        }
+        li{
+            font-size: 12px;
+            color: black;
+        }
+        a{
+            color:  #008000;
+        }
+
+.firstHeader {
+    color: white;   
+
+  }
+  .secondHeader {
+      background: #468346;
+
+  }
+
+  .footer {
+   margin: 60px
+   padding: 60px;
+   background: #003311;
+}
+
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  /* For desktops: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+@media only screen and (max-width: 600px) {
+    #content3{
+        display:  none;
+    }
+
+  /* For phones: */
+  .col-s-0 {width: 0.1%;}
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+ 
+    @media only screen and (min-width: 600px) {
+         #menu4{
+         display:  none;
+    }
+    }
+@media only screen and (max-width: 750px) {
+      #sidecol{
+        display: none;
+    }
+  /* For tablets: */
+  
+  .col-m-1 {width: 8.33%;}
+  .col-m-2 {width: 16.66%;}
+  .col-m-3 {width: 25%;}
+  .col-m-4 {width: 33.33%;}
+  .col-m-5 {width: 41.66%;}
+  .col-m-6 {width: 50%;}
+  .col-m-7 {width: 58.33%;}
+  .col-m-8 {width: 66.66%;}
+  .col-m-9 {width: 75%;}
+  .col-m-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  
+}
+
+body {margin:0;font-family:Arial}
+
+.topnav {
+      background: #21AF21;
+      color: black;
+      overflow: hidden;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+</head>
+
+
+
+
+<title>blog2</title>
+<meta charset="utf-8" name = "viewport" content = "width=device-width, initial-scale = 1.0">
+</head>
+
+<body onload="showContent('menu0', 'content0')">
+    
+</body>
+
+<!-- ============ 1st HEADER SECTION ============== -->
+<div class="row" style="background-color: DarkSlateGray; padding: none; margin: none;">
+
+    <div class="col-1" id="sidecol" style="padding-top:none; margin: none;">
+    </div>
+
+    <div class="col-4  col-m-6 col-s-10  firstHeader" style="padding-top:none; margin: none;">
+
+        <p><b>
+            <font style="color: white; size: 0.1vw;">Welcome, Guest
+                <a href="https://www.w3schools.com/html/"> Login</a> 
+                <a href="https://www.w3schools.com/html/">Sign up</a> 
+            </font>
+        </b>
+    </p>
+    </div>
+
+    <div class="col-6  col-s-11" style="padding-top:none; margin: none;">
+    <p> <b>
+        <font color="white">Stay updated: </font> <a href="https://www.w3schools.com/html/">subscribe via RSS</a> 
+        <a href="https://www.w3schools.com/html/">Email Update
+        </b></p>
+    </div>
+
+    <div class="col-1 " id="sidecol" style="padding-top:none; margin: none;">
+    </div>
+</div>
+
+<!-- ============ 2nd HEADER SECTION ============== -->
+
+<div class="secondHeader">
+
+    <div class="row" >
+
+    <div class="col-1" id="sidecol">
+    </div>
+
+    <div class="col-3 col-m-6" >
+        <h1>
+           <font color="white" size="9vm">
+           My Blog&nbsp&nbsp</font>
+       </h1>
+   </div>
+
+   <div class="col-6 col-s-11" style="padding-top: 30px;">
+    <h3>
+        <font color="white">
+         Description of My Blog
+     </font>
+ </h3>
+    </div>
+   <div class="col-2 " id="sidecol" >
+   
+   </div>
+ </div>
+</div>
+<!-- ============This is for navbar============== -->
+<div class="topnav" id="myTopnav">
+     <div class="row" >
+
+    <div class="col-1" id="sidecol">
+        </div>
+
+         <div class="col-8 col-s-12 dropdown" >
+  <a id="menu0" onclick="showContent('menu0', 'content0')" class="active"><font size="3" 
+              color="Black">HOME</font></a>
+  <a id="menu1" onclick="showContent('menu1', 'content1')" class="active"><font size="3" 
+              color="Black">ABOUT</font></a>
+  <a id="menu2"  onclick="showContent('menu2', 'content2')" class="active"><font size="3" 
+              color="Black">BLOG</font></a>
+      
+  <a id="menu3" onclick="loadDoc()">  <font size="3" 
+              color="Black">CONTACT</font></a>
+
+    
+    <a id="menu4"  onclick="showContent('menu4', 'content3')" class="active" ><font size="3" 
+              color="Black">LINKS</font></a>         
+
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+</div>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+function showContent(menuElement, theContent) {
+    // Hide everything
+  
+  
+    document.getElementById("content0").style.display="none";
+    document.getElementById("content1").style.display="none";
+    document.getElementById("content2").style.display="none";
+  //  document.getElementById("content3").style.display="none";
+    document.getElementById("content4").style.display="none";
+    
+    document.getElementById("demo").style.display="none";
+    // Remove "active" class
+    document.getElementById("menu0").className="none";
+    document.getElementById("menu1").className="none";
+    document.getElementById("menu2").className="none";
+    document.getElementById("menu3").className="none";
+    document.getElementById("menu4").className="none";
+    
+   
+   if (  document.getElementById(menuElement).id!="menu0") {
+      document.getElementById("content3").style.display="none";
+    }
+     // Show the one that was selected
+    document.getElementById(theContent).style.display="block";
+    document.getElementById(menuElement).className="active";
+
+  
+}
+
+</script>
+
+
+
+      <!--This is for first part/half-->
+      <div class="row">
+        <div class="col-1" id="sidecol">
+   </div>
+      
+      <!-- ============This is for Dont cancel chuck============== -->
+        <div id="content0"class="col-7 col-s-10" style="background-color:white;">
+
+            <h1 style="color: balck; ">Don't Cancel Chuck!</h1>
+            <p><small>on July 01 in <a href="https://mycourses2.mcgill.ca/">General</font></a>, tagged by <a href="https://mycourses2.mcgill.ca/">petitions</a> by <a href="https://mycourses2.mcgill.ca/"> admin</a></small></p>
+
+
+            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,</p>
+
+
+            <!--green line -->
+            <div class="row">
+                <div class="column left" style="width: 7%">
+                  <p></p>
+              </div>
+              <div class="column left" style="width: 3%">
+               <div class="vl"></div>
+           </div>
+           <div class="column middle"  style="width: 90%">
+               <p>  <font color="Black" size="3px">
+                quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro 
+                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed 
+                quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+            </p>
+        </div>
+
+    </div>
+
+
+    <p>
+        which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault wita pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt <a href="https://mycourses2.mcgill.ca/"><br>Read More</br></a>
+    </p>
+
+
+<!--This is for Links-->
+</div>
+<div class="col-3 col-s-12" id="content3" style="background-color:Gainsboro;">
+    <div style="margin: 1vw">
+        <h4> Category</h4>
+        <a href="https://mycourses2.mcgill.ca/"><font color="Black" size="3px"> General</font></a><br>
+        <a href="https://mycourses2.mcgill.ca/"><font color="Black" size="3px"> Ghost insightings</font></a><br>
+        <a href="https://mycourses2.mcgill.ca/"><font color="Black" size="3px"> UFO crashes</font></a><br>
+        <a href="https://mycourses2.mcgill.ca/"><font color="Black" size="3px"> Government Canada</font></a><br>
+        <a href="https://mycourses2.mcgill.ca/"><font color="Black" size="3px"> International games</font></a><br>
+    </div>
+
+    <div style="margin: 12px">
+        <h4>Recent Posts</h4>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://mycourses2.mcgill.ca/"><font color="Black" size="3px"> Trump stories</font></a><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://mycourses2.mcgill.ca/"><font color="Black" size="3px"> Old Joe</font></a><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://mycourses2.mcgill.ca/"><font color="Black" size="3px"> Little potato</font></a><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://mycourses2.mcgill.ca/"><font color="Black" size="3px"> Uncle roger</font></a><br>
+    </div>
+    <div style="margin: 12px">
+        <h4>Archives</h4>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://mycourses2.mcgill.ca/"><font color="Black" size="3px"> June 2000</font></a><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://mycourses2.mcgill.ca/"><font color="Black" size="3px"> July 2016</font></a><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://mycourses2.mcgill.ca/"><font color="Black" size="3px"> Feriver 2009</font></a><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://mycourses2.mcgill.ca/"><font color="Black" size="3px"> March 2001</font></a><br>
+    </div>
+</div>
+
+<div class="col-1" id="sidecol" style="background-color:White;">
+
+</div>
+</div>
+
+
+
+
+
+<div class="row"  >
+    <div class="col-1" id="sidecol" style="background-color:White;">
+    </div>
+    <!-- ============This is for Alien Spacecraft found in New Mexico============= -->
+    <div class="col-7 col-m-10" id="content1" style="background-color:white;">
+        <h1 style="color: balck; ">Alien Spacecraft found in New Mexico</h1>
+
+        <p><small>on July 01 in <a href="https://mycourses2.mcgill.ca/"> General</a>, tagged by <a href="https://mycourses2.mcgill.ca/">petitions</a> by <a href="https://mycourses2.mcgill.ca/">admin</a></small></p>
+
+        <p style="color: black" >
+         At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa q distinctio. 
+         <nav>
+            <ul>
+                <li><font size= 3.7 px> yang tidak dikenal mengambil sebuah kumpulan  sebuah buku contoh huruf.  </font> </li>
+                <li><font size= 3.7 px> teks dan mengacaknya untuk menjadi</font></li>
+                <li><font size= 3 px> Ia tidak hanya</font></li>
+            </ul>
+
+        </nav>
+
+    </p>
+    <p>
+        Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+    </p>
+</div>
+
+<div class="col-4 " id="sidecol" style="background-color:white;">
+</div>
+</div>
+
+<div class="row"  >
+
+    <div class="col-1" id="sidecol" style="background-color:White;">
+    </div>
+    <div class="col-7 col-m-10 col-s-12"  id="content2">
+
+        <!--This is for Ghostly goo in your kitchen sink?-->
+
+        <h1 style="color: balck; ">  Ghostly goo in your kitchen sink?</h1>
+        <p><small>on July 01 in <a href="https://mycourses2.mcgill.ca/">General</a>, tagged by <a href="https://mycourses2.mcgill.ca/">petitions</a> by <a href="https://mycourses2.mcgill.ca/">admin</a></small></p>
+        <p>
+            <b>On the other hand, we denounce with righteous</b> that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure in circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures<a href="https://mycourses2.mcgill.ca/">PWYT</a>, or else he endures pains to avoid worse pains."
+        </p>
+    </div>
+    <div class="col-4" id="sidecol" style="background-color:white;">
+</div>
+
+</div>
+
+
+<div class="row"  id="content4" >
+
+    <div class="col-1" id="sidecol" style="background-color:White;">
+    </div>
+    <div class="col-7 col-m-10"  >
+    <h4>
+        Head Level 4
+
+    </h4>
+    <p>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp1.situs web yang masih dalam tahap pengembangan. Berbagai versi<br>
+
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp2.sudah mengalami perubahan bentuk, entah karena unsur humor
+  </p>
+
+
+  <!--green line -->
+  <div class="row">
+    <div class="column left" style="width: 7%">
+      <p></p>
+  </div>
+  <div class="column left" style="width: 3%">
+     <div class="vl"></div>
+ </div>
+ <div class="column middle"  style="width: 90%">
+     <p>  <font color="Black" size="3px">
+        quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro 
+        quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed 
+        quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+    </p>
+</div>
+
+
+</div>
+
+
+<h4>
+    Head Level 3
+</h4>
+<ul>
+    <li><font size=4px>
+        easure itself, because it is pleasure, but because those
+    </font>
+</li>
+<li><font size=4px>
+    because occasionally circumstances o
+</font>
+</li>
+</ul>
+<ol>
+  <li><font size=4px> 1.10.32 dan 1.10.33 dari naskah "de Finibus Bonorum et Malorum" </font></li> 
+  <li><font size=4px>(Sisi Ekstrim dari Kebaikan dan Kejahatan) karya Cicero, yang </font></li>  
+</ol>
+
+</article>
+</section>
+
+</div>
+
+<div class="col-4" id="sidecol" style="background-color:white;">
+
+
+</div>
+</div>
+
+             <!--ajax part-->
+<div id="demo">
+</div>
+
+<script>
+function loadDoc() {
+        // Hide everything
+  
+   document.getElementById("demo").style.display="block";
+  
+    document.getElementById("content0").style.display="none";
+    document.getElementById("content1").style.display="none";
+    document.getElementById("content2").style.display="none";
+    document.getElementById("content3").style.display="none";
+    document.getElementById("content4").style.display="none";
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "contact.txt", true);
+  xhttp.send();
+}
+</script>
+
+
+<!--This is for footer part/half-->
+
+<footer class="footer">
+    <div class="row">
+       <div class="col-1" id="sidecol">
+        </div>
+      
+        <div class="col-5 col-s-12" >
+           <h2></h2>
+           <font color="MediumSeaGreen" size="4"><b>Links</b></font><br><br>
+           <a href="https://helpx.adobe.com/ca/photoshop/tutorials.html"><font size=2px color="white">PSDtuts - Photoshop tutorials</font></a><br>
+           <a href="https://www.w3schools.com/"><font size=2px color="white">Nettuts - Web development and design tutorials</font></a><br>
+           <a href="https://helpx.adobe.com/ca/illustrator/tutorials.html"><font size=2px color="white">Vectortuts - Illustrator and vector tutorials</font></a><br>
+           <a href="https://helpx.adobe.com/ca/animate/tutorials.html"><font size=2px color="white">Flashtuts - Adobe Flash tutorials</font></a><br><br>
+
+           <h2></h2>            
+       </div>
+       <div class="col-3 col-m-5 col-s-6" >
+           <h2></h2>
+           <font color="MediumSeaGreen" size="4"><b>Follow our updates</b></font><br><br>
+           <a href="https://xkcd.com/atom.xml"><font size=2px  color="white">Subscribe to RSS</font></a><br>
+           <a href="https://en.wikipedia.org/wiki/RSS"><font size=2px  color="white">What is RSS?</font></a><br>
+           <a href="https://xkcd.com/newsletter/"><font size=2px  color="white">Email updates</font></a><br><br>
+           <h2></h2>
+       </div>
+       <div class="col-2 col-s-7" >
+           <h2></h2>
+           <font color="MediumSeaGreen" size="2">
+            <div align="right">
+                Copyright @ 2009.<br>
+                All Rights Reserved.<br>
+
+            </div>
+
+        </font>     
+    </div>
+     <div class="row">
+       <div class="col-1" id="sidecol">
+
+</div>
+
+
+</footer>
+
+</html>

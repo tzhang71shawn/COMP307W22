@@ -1,0 +1,109 @@
+    <!-- ============Biography============= -->
+
+
+<div class="row"  >
+    <div class="col-1" id="sidecol" style="background-color:White;">
+    </div>
+
+    <div class="col-7 col-m-10" style="background-color:white;">
+        <h1 style="color: balck; ">Biography</h1>
+<p>Tian(Shawn) Zhang is a fourth year student at McGill University. He is pursuing a major in <b>Computer Science</b> as well as a minor in <b>management</b>. Having switched major twice, from Nutrition to Economics and finally Computer Science, he realizes that his goal and interests fall into building stuffs with his coding and  design skills. <br><br>
+            He has taken multiple COMP SCI courses as follows, as well as several Math courses in Calculus, Linear Algebra, Probability and Statistics.
+<br>
+  <nav>
+            <ul>
+                <li><font size= 4 px> COMP 202(Foundation of Programming, java)  </font> </li>
+                <li><font size= 4 px> COMP 206(Software System)</font></li>
+                <li><font size= 4 px> COMP 250 and 251(Data Structure and Algorithms)</font></li>
+                <li><font size= 4 px> COMP 303(Software Design)</font></li>
+                <li><font size= 4 px> COMP 421(Database)</font></li>
+                <li><font size= 4 px> COMP 307(Web Development)</font></li>
+                <li><font size= 4 px> COMP 273(Computer Systems)</font></li>
+            </ul>
+
+   </nav>
+<br>
+Having strong Computer Science and Mathematics, Shawn is always eager and enthusiastic in learning new technologies and try to master them. His goal is to be a full stack software engineer and make popular software. 
+</p>
+
+<p>
+In his spare time, he cooks a lot from making home-made Bolognese sauce to egg fried rice. He also reads and enjoys philosophy ideas from Buddhism, Yoga and Doism.    
+</p>       
+
+</div>
+
+<div class="col-4 " id="sidecol" style="background-color:white;">
+</div>
+</div>
+
+
+ <!--Education-->
+
+
+<div class="row"  >
+
+    <div class="col-1" id="sidecol" style="background-color:White;">
+    </div>
+        <div class="col-4  col-s-12"  id="content2">
+
+       
+        <h3 style="color: balck; ">  Education</h1>
+        <p>
+            Bachelor of Arts with a major in Computer Science and a minor in Management.
+            <br>GPA: 3.72
+            <br>Expected date of Graduate: Dec.2022
+            <br><font style="font-size: 1.0rem;  color: rgba(0,0,0,.6);">McGill University</font>
+        </p>
+    </div>
+     <div class="col-4 col-m-5 col-s-12"  id="content2">
+
+       
+        <h3 style="color: balck; ">  Skills</h1>
+        <p>
+<ul>
+                <li><font size= 4 px>Java </font> </li>
+                <li><font size= 4 px>C</font></li>
+                <li><font size= 4 px>Linux</font></li>
+                <li><font size= 4 px>HTML,CSS,Javascrpt,PHP,AJAX</font></li>
+                <li><font size= 4 px>SQL,DB2,PostgreSQl</font></li>
+                <li><font size= 4 px> Design Pattern</font></li>
+                <li><font size= 4 px>Mips Assembly</font></li>
+            </ul>
+        </p>
+    </div>
+    <div class="col-3" id="sidecol" style="background-color:white;">
+</div>
+</div>
+</div>
+
+ <!--Project Experience-->
+
+<div class="row"  id="content4" >
+
+    <div class="col-1" id="sidecol" style="background-color:White;">
+    </div>
+    <div class="col-7 col-m-10"  >
+    <h4>
+       Project Experience
+
+    </h4>
+    <h4> COMP 421 Projects: A midwife management system</h4>
+    <p>A system that helps midwives create, review, update and delete of appointments, notes, tests and relevant data.</p>
+    <p>
+Project Deliverable 1:<br>
+ Designed a schema using ER model. Drew the ER diagram.<br>
+ Project Deliverable 2:<br>
+ Created a database using DB2 database, 
+ populated the database with data, 
+ maintain, query and updated data, <br>
+ Project Deliverable 3:<br>
+ developed an application programs using Java, used JDBC to connect to database,
+ implemented a user-friendly interface for the midwife to do update and review data.
+  </p>
+</div>
+<div class="col-4" id="sidecol" style="background-color:white;">
+
+
+</div>
+</div>
+
